@@ -396,3 +396,23 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
+# Environment & secrets
+.env
+*.env
+.env.*
+
+# Generated audio output
+generated_audio.wav
+generated_audio.flac
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# HuggingFace model cache
+.cache/
+
+# Streamlit
+.streamlit/
