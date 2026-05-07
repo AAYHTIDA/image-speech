@@ -16,15 +16,7 @@ The app runs a three-stage pipeline:
 
 ---
 
-## Demo
-
-| Input Image | Output |
-|---|---|
-| ![Couple](img-audio/CoupleOutput.jpg) | Audio in `img-audio/CoupleAudio.wav` |
-| ![Family](img-audio/FamilyOutput.jpg) | Audio in `img-audio/FamilyAudio.wav` |
-| ![Picnic](img-audio/PicnicOutput.jpg) | Audio in `img-audio/PicnicAudio.wav` |
-
----
+ 
 
 ## Tech Stack
 
@@ -37,62 +29,8 @@ The app runs a three-stage pipeline:
 | Environment | python-dotenv |
 
 ---
+ 
 
-## Setup
+ 
 
-### 1. Clone the repo
-
-```bash
-git clone https://github.com/your-username/image-to-speech.git
-cd image-to-speech
-```
-
-### 2. Install dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-### 3. Configure API keys
-
-Copy `.env.example` to `.env` and fill in your keys:
-
-```bash
-cp .env.example .env
-```
-
-```env
-GROQ_API_KEY=your-groq-api-key
-HUGGINGFACE_API_TOKEN=your-huggingface-token
-```
-
-- Groq API key: [console.groq.com](https://console.groq.com)
-- HuggingFace token: [huggingface.co/settings/tokens](https://huggingface.co/settings/tokens)
-
-### 4. Run the app
-
-```bash
-streamlit run app.py
-```
-
-The app will open at `http://localhost:8501`. Upload a `.jpg` image and the pipeline runs automatically.
-
----
-
-## Project Structure
-
-```
-├── app.py               # Main Streamlit app
-├── utils/
-│   └── custom.py        # Custom CSS
-├── img/                 # System design diagram
-├── img-audio/           # Sample demo outputs
-├── .env.example         # Environment variable template
-└── requirements.txt     # Python dependencies
-```
-
----
-
-## License
-
-Distributed under the MIT License. See `LICENSE` for details.
+ 
