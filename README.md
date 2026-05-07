@@ -1,4 +1,4 @@
-# Image to Speech — GenAI App
+# Image to Speech — GenAI App by Adithyaa S Kumar
 
 A generative AI pipeline that takes an uploaded image and produces a narrated audio story. Built with HuggingFace Transformers, Groq LLM, and Streamlit.
 
